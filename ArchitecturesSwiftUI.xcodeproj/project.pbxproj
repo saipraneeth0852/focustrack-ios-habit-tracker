@@ -20,7 +20,6 @@
 		8D64751129901EC300B74EAF /* CredentialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64751029901EC300B74EAF /* CredentialService.swift */; };
 		8D64751429901FAA00B74EAF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D64751329901FAA00B74EAF /* FirebaseAuth */; };
 		8D64751629901FAA00B74EAF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D64751529901FAA00B74EAF /* FirebaseFirestore */; };
-		8D6475182990202900B74EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D6475172990202900B74EAF /* GoogleService-Info.plist */; };
 		8D64751D2991397300B74EAF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64751C2991397300B74EAF /* HomeViewModel.swift */; };
 		8D64751F29913A1300B74EAF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64751E29913A1300B74EAF /* Person.swift */; };
 		8D64752129913A4300B74EAF /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64752029913A4300B74EAF /* PersonService.swift */; };
@@ -45,7 +44,6 @@
 		8D64750B298FF6CF00B74EAF /* TextFieldViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModifier.swift; sourceTree = "<group>"; };
 		8D64750D29901C1E00B74EAF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		8D64751029901EC300B74EAF /* CredentialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialService.swift; sourceTree = "<group>"; };
-		8D6475172990202900B74EAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D64751C2991397300B74EAF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8D64751E29913A1300B74EAF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8D64752029913A4300B74EAF /* PersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonService.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				8D0228E7298FEF4E00952ED5 /* Models */,
 				8D0228DC298FEDAC00952ED5 /* Core */,
 				8D0228D2298FED9D00952ED5 /* Assets.xcassets */,
-				8D6475172990202900B74EAF /* GoogleService-Info.plist */,
 				8D0228D4298FED9D00952ED5 /* Preview Content */,
 			);
 			path = ArchitecturesSwiftUI;
@@ -261,7 +258,6 @@
 			files = (
 				8D0228D6298FED9D00952ED5 /* Preview Assets.xcassets in Resources */,
 				8D0228D3298FED9D00952ED5 /* Assets.xcassets in Resources */,
-				8D6475182990202900B74EAF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +493,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 11.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
